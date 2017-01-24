@@ -15,3 +15,12 @@ button2.addEventListener('click', function () {
 button3.addEventListener('click', function () {
   snare.play();
 });
+button1.addEventListener("mouseover", function () {
+  boom.play();
+});
+button2.addEventListener("mouseover", function () {
+  kick.play();
+});
+button3.addEventListener("mouseover", function () {
+  snare.play();
+});
